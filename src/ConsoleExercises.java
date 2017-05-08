@@ -23,7 +23,9 @@ public class ConsoleExercises {
         answer = scan.nextLine();
 
         System.out.println("What is the length and width of the classroom?");
-        int perimeter = scan.nextInt();
+        int length;
+        int width;
+        int perimeter = 2 * length + 2 * width;
 
         System.out.println("Length and width: " + perimeter);
 
