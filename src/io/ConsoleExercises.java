@@ -40,16 +40,20 @@ public class ConsoleExercises {
         System.out.println("Enter room length first. Decimals are ok.");
 
 
-        length = in.nextFloat();
+        length = input.nextFloat();
         System.out.println("Enter width: ");
-        width = in.nextFloat();
+        width = input.nextFloat();
         System.out.println("Enter height: ");
-        height = in.nextFloat();
+        height = input.nextFloat();
 
         System.out.println("The calculated dimensions are below");
         System.out.println("Area = " + (length * width) + " sq/ft");
         System.out.println("Perimeter = " + (length*2) + " ft " + (width*2) + " ft");
         System.out.println("Volume = " + (length*width*height) + " cu/ft");
+
+
+
+
 
 
         }
