@@ -7,23 +7,27 @@ public class ConsoleExercises {
 
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+        Scanner input;
+
+        input = new Scanner(System.in);
+
+        System.out.println("Enter an integer value");
+        int aNumber = input.nextInt();
+
+        System.out.println("The integer value:  " + aNumber);
 
 
-//        Scanner scan = new Scanner(System.in);
-//
-//        String answer;
-//
-//        System.out.println("What is your age?");
-//        int age = scan.nextInt();
-//        System.out.println("Your age is: " + age);
-//
-//        System.out.println("In three words, tell me about your day:");
-//
-//        answer = scan.nextLine();
-//
-//        System.out.println("How was your day: " + answer);
+        System.out.println("Enter a word");
+        String word = input.next();
+        System.out.println(word);
 
+        System.out.println("Enter another word");
+        String secondWord = input.next();
+        System.out.println(secondWord);
+
+        System.out.println("Enter one last word");
+        String lastWord = input.next();
+        System.out.println(lastWord);
 
         float length;
         float width;
