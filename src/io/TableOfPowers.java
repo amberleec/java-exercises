@@ -17,7 +17,8 @@ public class TableOfPowers {
         System.out.println("------ | ------- | -----");
 
         for (int i = 1; i <= limit; i++) {
-            System.out.printf("%d      | %d       | %d%n", i, i*i, i*i*i);
+            System.out.printf("%d      | %d       | %d%n", i, i * i, i * i * i);
         }
+        System.out.println("Do you want to continue?");
     }
 }

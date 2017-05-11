@@ -48,5 +48,12 @@ public class ControlFlowExercises {
             else System.out.print(i);
             System.out.print(" ");
         }
+
+        String contGrade = "y";
+
+        while(contGrade.equalsIgnoreCase("y")) {
+            System.out.println("Please enter a number grade:");
+            int grade =
+        }
     }
 }
