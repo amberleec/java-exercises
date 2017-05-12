@@ -15,31 +15,31 @@ public class Methods {
     }
 
     public static void addition(int number) {
-        System.out.println("Put in a number and add it!");
+        System.out.println("Put in a number and add it! Choose a number between 1 - 10!");
         int num = number;
         System.out.println(num + num);
     }
 
     public static void subtraction(int number) {
-        System.out.println("Put in a number and subtraction!");
+        System.out.println("Put in a number and subtract! Choose a number between 1 - 10!");
         int num = number;
         System.out.println(num - 6);
     }
 
     public static void multiplication(int number) {
-        System.out.println("Put in a number and multiply!");
+        System.out.println("Put in a number and multiply! Choose a number between 1 - 10");
         int num = number;
         System.out.println(num * num);
     }
 
     public static void division(int number) {
-        System.out.println("Put in a number and divide it!");
+        System.out.println("Put in a number and divide it! Choose a number between 1 - 10!");
         int num = number;
         System.out.println(num / 2);
     }
 
     public static void modulus(int number) {
-        System.out.println("Try out Modulus function!");
+        System.out.println("Try out Modulus function! Choose a number between 1 - 10!");
         int num = number;
         System.out.println(20 % num);
         System.out.println(6 % num);
