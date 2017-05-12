@@ -15,29 +15,34 @@ public class Methods  {
     }
 
     public static void addition (int number) {
+        System.out.println("Put in a number and add it!");
         int num = number;
         System.out.println(num+num);
     }
 
     public static void subtraction (int number) {
+        System.out.println("Put in a number and subtraction!");
         int num = number;
         System.out.println(num-6);
     }
 
     public static void multiplication (int number) {
+        System.out.println("Put in a number and multiply!");
         int num = number;
         System.out.println(num*num);
     }
 
     public static void division (int number) {
+        System.out.println("Put in a number and divide it!");
         int num = number;
         System.out.println(num/2);
     }
 
     public static void modulus (int number) {
+        System.out.println("Try out Modulus function!");
         int num = number;
-        System.out.println(10%num);
-        System.out.println(17%num);
+        System.out.println(20%num);
+        System.out.println(6%num);
     }
 
     public static void multipy (int number, int x) {
