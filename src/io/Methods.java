@@ -54,5 +54,15 @@ public class Methods  {
         System.out.println(num++);
     }
 
+    public static int getInteger(int min, int max){
+        System.out.print("Enter a number between 1 and 10: ");
+        int userInput = getInteger(1, 10);
+        System.out.println("Try again if it does'nt work out!" + userInput);
+    }
+
+
+
+
+
 }
 
