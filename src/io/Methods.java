@@ -11,7 +11,7 @@ public class Methods {
         multiplication(5);
         division(8);
         modulus(2);
-        multipy(5, 5);
+        multiply(5, 5);
     }
 
     public static void addition(int number) {
@@ -45,7 +45,7 @@ public class Methods {
         System.out.println(6 % num);
     }
 
-    public static void multipy(int number, int x) {
+    public static void multiply(int number, int x) {
         int num = number;
         int s = x;
         for (int i = 0; i < s; i++) {
@@ -58,8 +58,14 @@ public class Methods {
         System.out.print("Enter a number between 1 and 10: ");
         int userInput = getInteger(1, 10);
         System.out.println("Try again if it does'nt work out!" + userInput);
-        return userInput;
+        return getInteger(System.in);
+
     }
+
+    }
+
+
+
 
 
 

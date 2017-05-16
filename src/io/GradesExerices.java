@@ -6,7 +6,7 @@ package io;
 public class GradesExerices {
     public static void main(String[] args) {
 
-         scores;
+         String scores;
         char grade;
 
         if(scores >= 90) {
