@@ -3,11 +3,13 @@ package Java2;
 /**
  * Created by Amberlee on 5/19/17.
  */
-public class Rectangle {
+public class Sqre {
     private final double width;
     private final double length;
 
-    public Rectangle(double width, double length) {
+
+    public Square(double side) {
+        super(side, side);
         this.width = width;
         this.length = length;
     }
@@ -20,6 +22,4 @@ public class Rectangle {
     public double getPerimeter() {
         return 2 * length + 2 * width;
     }
-}
-
 }
