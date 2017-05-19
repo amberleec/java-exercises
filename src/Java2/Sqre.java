@@ -8,8 +8,7 @@ public class Sqre {
     private final double length;
 
 
-    public Square(double side) {
-        super(side, side);
+    public Sqre (double width, double length) {
         this.width = width;
         this.length = length;
     }
@@ -23,3 +22,4 @@ public class Sqre {
         return 2 * length + 2 * width;
     }
 }
+

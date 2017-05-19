@@ -10,7 +10,7 @@ public class Shape {
         System.out.println(box1.getPerimeter());
         System.out.println(box1.getArea());
 
-        Square box2 = new Square(5);
+        Sqre box2 = new Sqre(5);
         System.out.println(box2.getPerimeter());
         System.out.println(box2.getArea());
     }
