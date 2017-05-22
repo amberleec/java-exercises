@@ -6,5 +6,9 @@ package Java2;
 public class Student {
     public static void main(String[] args) {
 
+       String grade =
+
+        public String getName();
+        public void addGrad(int grade);
     }
 }
