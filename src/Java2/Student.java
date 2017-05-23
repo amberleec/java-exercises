@@ -53,12 +53,21 @@ import java.util.ArrayList;
         System.out.println(Jane.getGradeAverage());
 
         Student Joe = new Student("Joe");
+
         System.out.println(Joe.getName());
-        Joe.addGrade(50);
         Joe.addGrade(100);
+        Joe.addGrade(50);
+
         System.out.println(Joe.getGradeAverage());
 
+        Student Ethan = new Student("Ethan");
 
+        System.out.println(Ethan.getName());
+        Ethan.addGrade(100);
+        Ethan.addGrade(78);
+        Ethan.addGrade(69);
+
+        System.out.println(Ethan.getGradeAverage());
     }
 
 
