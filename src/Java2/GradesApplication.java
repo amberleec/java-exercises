@@ -60,7 +60,7 @@ public class GradesApplication {
             printOutUsernames(list);
         }
         else {
-            System.out.println("Goodbye, and have a wonderful day!");
+            System.out.println("Goodbye, and have a great day!");
             System.exit(0);
         }
         scanner.next();
