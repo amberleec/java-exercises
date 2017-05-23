@@ -8,6 +8,9 @@ import java.util.Scanner;
  * Created by Amberlee on 5/23/17.
  */
 public class GradesApplication {
+    public static void main(String[] args) {
+
+    }
     public static Scanner scanner = new Scanner(System.in);
 
     public static  void getStudentInfo(Map <String, Student> list){
